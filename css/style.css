@@ -16,6 +16,9 @@ body{
 .triple-width{
     width: 33%;
 }
+.recipes-triple-width{
+    width: 33%;
+}
 .food-color{
     color: #8dc63f;
 }
@@ -78,6 +81,47 @@ body{
     font-weight: 300;
     line-height: 1.8;
 }
+
+/* food recipes products Area CSS */
+#food-recipes-products p{
+    font-weight: 300;
+    line-height: 1.8;
+}
+#food-recipes-products .my-recipe{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 3%;
+}
+.recipes-triple-width a{
+    text-decoration: none;
+    color: #000;
+}
+#food-recipes-products .my-recipe h1{
+    font-size: 42px;
+}
+#food-recipes-products .my-recipe p{
+    font-weight: 300;
+    line-height: 1.8;
+}
+#food-recipes-products .recipe-item{
+    width: 80%;
+    margin-right: 5%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px #ddd;
+}
+#food-recipes-products .recipe-item img{
+    width: 100%;
+    border-radius: 10px;
+}
+.left-recipe-item{
+    padding-left: 40px;
+}
+.recipes-top-padding{
+    padding-top: 25px;
+}
+
 
 /* Special Servies Area CSS */
 .services-all-info{
